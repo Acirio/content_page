@@ -23,6 +23,7 @@
     height: 7px;
     background-color: rgb(255, 123, 0);
 }
+/*Essa parte poderia ser substituída por uma borda na div do "top_gray"*/
 
 /*----------HEADER----------*/
 
@@ -82,10 +83,10 @@ color: gray;
     font-size: 12pt;
 }
 
-img{
+figure>img{
     width: 550px;
 }
-
+/*nesse caso, apenas as imagens cujo o pai é a tag "figure" serão alteradas*/
 .link{
     text-decoration: none;
     color: orange;
