@@ -1,0 +1,97 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial;
+}
+
+/*----------TOP BAR----------*/
+
+#top_gray{
+    width: 100vw;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    margin: 0px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#top_orange{
+    width: 100vw;
+    height: 7px;
+    background-color: rgb(255, 123, 0);
+}
+
+/*----------HEADER----------*/
+
+#header{
+    width: 650px;
+    text-align: center;
+    text-align:left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#h1_header{
+    padding-top: 16pt;
+    padding-bottom: px;
+    color: black;
+}
+
+#author{
+    font-size: 11px;
+    margin-bottom: 0;
+}
+
+#date{
+    margin-top: 2px;
+    font-size: 8px;
+    padding-top: 0px;
+}
+
+#social_list{
+    list-style-position: inside;
+    list-style: none;
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.il_social_list{
+    width: 35px;
+}
+
+.list_image{
+    width: 20px;
+}
+
+.header_elements{
+padding-top: 20px;
+color: gray;
+}
+/*----------SECTIONS----------*/
+
+#container{
+    width: 550px;
+    text-align: center;
+    text-align:left;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12pt;
+}
+
+img{
+    width: 550px;
+}
+
+.link{
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;
+    
+}
+
+.link:hover{
+    color: gray;
+}
